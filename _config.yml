@@ -1,0 +1,7 @@
+title: "Beyond The Edge Blog"
+description: "Beyond the Edge exists to bridge the gap between complex digital trends and real business growth. We curate the most effective web strategies, SEO innovations, and AI applications, then present them as clear, implementable tactics for solopreneurs and small business owners. Your time is valuable, so we focus on delivering insights that create immediate impact and long-term success."
+remote_theme: pages-themes/minimal@v0.2.0
+plugins:
+  - jekyll-remote-theme
+# For project sites (not username.github.io), uncomment:
+# baseurl: "/REPO"
