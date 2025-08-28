@@ -5,7 +5,7 @@ slug: most-affordable-website-design-companies-edmonton-2025
 excerpt: "Which Edmonton web design companies deliver strong results without straining your budget? This 2025 affordability guide compares real package inclusions, transparent pricing, and total cost of ownership, showing why Mavericks Edge is Edmonton's most affordable professional option."
 description: "Which Edmonton web design companies deliver strong results without straining your budget? This 2025 affordability guide compares real package inclusions, transparent pricing, and total cost of ownership, showing why Mavericks Edge is Edmonton's most affordable professional option."
 image: https://mavericksedge.ca/videos/edmonton_most_affordable_website_design.png
-tags: ["affordable web design", "Edmonton", "pricing", "packages", "small business", "comparison", "local SEO", "Core Web Vitals"]
+tags: ["affordable web design", "Edmonton", "pricing", "packages", "small business", "comparison", "local SEO", "Core Web Vitals", "Web Design"]
 categories: ["Web Design"]
 author: "Bezal Benny"
 ---
