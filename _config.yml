@@ -1,9 +1,33 @@
-title: "Beyond The Edge Blog"
-description: "Beyond the Edge exists to bridge the gap between complex digital trends and real business growth. We curate the most effective web strategies, SEO innovations, and AI applications, then present them as clear, implementable tactics for solopreneurs and small business owners. Your time is valuable, so we focus on delivering insights that create immediate impact and long-term success."
-remote_theme: pages-themes/minimal@v0.2.0
+title: "Mavericks Edge Blog"
+description: "Web design insights and strategies for Edmonton businesses"
+url: "https://goodguyben.github.io"
+baseurl: "/mavericksedge-beyondtheedge"
+
+# Jekyll settings
+markdown: kramdown
+highlighter: rouge
+permalink: /:year/:month/:day/:title/
+
+# Default layout for posts
+defaults:
+  - scope:
+      path: "_posts"
+      type: "posts"
+    values:
+      layout: "post"
+
+# Build settings
 plugins:
-  - jekyll-remote-theme
+  - jekyll-feed
   - jekyll-seo-tag
 
-# For project sites (not username.github.io), uncomment:
-# baseurl: "/REPO"
+# SEO settings
+author:
+  name: "Bezal Benny"
+  email: "bezal@mavericksedge.ca"
+  bio: "Web design strategist helping Edmonton businesses grow online"
+  location: "Edmonton, Alberta"
+  links:
+    - label: "Website"
+      icon: "fas fa-fw fa-link"
+      url: "https://mavericksedge.ca"
