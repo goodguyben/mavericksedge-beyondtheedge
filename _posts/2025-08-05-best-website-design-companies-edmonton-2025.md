@@ -7,7 +7,7 @@ description: "Searching for the best website design in Edmonton? Our 2025 guide 
 image: https://mavericksedge.ca/videos/Edmonton_Skyline.jpg
 tags: ["website design", "Edmonton", "web design companies", "digital marketing", "SEO", "business growth"]
 categories: ["Web Design"]
-canonicalUrl: "https://mavericksedge.ca/blog/best-website-design-companies-edmonton-2025"
+canonical_url: "https://mavericksedge.ca/blog/best-website-design-companies-edmonton-2025"
 author: "Bezal Benny"
 ---
 
