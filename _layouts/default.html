@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="{{ site.lang | default: "en-US" }}">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+    <!-- Custom canonical URL handling -->
+    {% if page.canonical_url %}
+    <link rel="canonical" href="{{ page.canonical_url }}">
+    {% else %}
+    <link rel="canonical" href="{{ page.url | replace:'index.html','' | absolute_url }}">
+    {% endif %}
+    
+    <!-- SEO Tags -->
+    <title>{{ page.title }} | {{ site.title }}</title>
+    <meta name="description" content="{{ page.excerpt | default: site.description | strip_html | normalize_whitespace | truncate: 160 | escape }}">
+    
+    <!-- Open Graph -->
+    <meta property="og:title" content="{{ page.title | default: site.title }}">
+    <meta property="og:description" content="{{ page.excerpt | default: site.description | strip_html | normalize_whitespace | truncate: 160 | escape }}">
+    <meta property="og:url" content="{{ page.canonical_url | default: page.url | absolute_url }}">
+    <meta property="og:type" content="article">
+    {% if page.featuredImage %}
+    <meta property="og:image" content="{{ page.featuredImage }}">
+    {% elsif site.image %}
+    <meta property="og:image" content="{{ site.image }}">
+    {% endif %}
+    
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="{{ page.title | default: site.title }}">
+    <meta name="twitter:description" content="{{ page.excerpt | default: site.description | strip_html | normalize_whitespace | truncate: 160 | escape }}">
+    {% if page.featuredImage %}
+    <meta name="twitter:image" content="{{ page.featuredImage }}">
+    {% elsif site.image %}
+    <meta name="twitter:image" content="{{ site.image }}">
+    {% endif %}
+    
+    <!-- Keywords -->
+    {% if page.tags %}
+    <meta name="keywords" content="{{ page.tags | join: ', ' }}">
+    {% endif %}
+    
+    <link rel="stylesheet" href="{{ "/assets/css/style.css?v=" | append: site.github.build_revision | relative_url }}">
+  </head>
+  <body>
+    <div class="container-lg px-3 my-5 markdown-body">
+      {{ content }}
+      
+      <footer style="margin-top: 50px; padding-top: 20px; border-top: 1px solid #e1e4e8;">
+        <p style="text-align: center; color: #586069;">
+          &copy; {{ site.time | date: '%Y' }} {{ site.title }}. 
+          Powered by <a href="https://mavericksedge.ca">Mavericks Edge</a>
+        </p>
+      </footer>
+    </div>
+  </body>
+</html>
