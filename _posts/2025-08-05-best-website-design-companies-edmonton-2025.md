@@ -5,8 +5,9 @@ slug: best-website-design-companies-edmonton-2025
 excerpt: "Searching for the best website design in Edmonton? Our 2025 guide ranks the top 5 agencies on results, reviews, and local expertise. Find your perfect partner and grow your business."
 description: "Searching for the best website design in Edmonton? Our 2025 guide ranks the top 5 agencies on results, reviews, and local expertise. Find your perfect partner and grow your business."
 image: https://mavericksedge.ca/videos/Edmonton_Skyline.jpg
-tags: ["website design", "Edmonton", "web design companies", "digital marketing", "SEO", "business growth", "Web Design"]
+tags: ["website design", "Edmonton", "web design companies", "digital marketing", "SEO", "business growth"]
 categories: ["Web Design"]
+canonicalUrl: "https://mavericksedge.ca/blog/best-website-design-companies-edmonton-2025"
 author: "Bezal Benny"
 ---
 
