@@ -21,7 +21,28 @@ plugins:
   - jekyll-feed
   - jekyll-seo-tag
 
-# SEO settings
+# SEO settings for jekyll-seo-tag plugin
+seo:
+  title: "Mavericks Edge | Beyond The Edge Blog"
+  description: "Web design insights and strategies for Edmonton businesses"
+  author: "Bezal Benny"
+  image: "https://mavericksedge.ca/videos/Edmonton_Skyline.jpg"
+  image_alt: "Mavericks Edge Blog"
+  twitter:
+    username: "@mavericksedge"
+    card: "summary_large_image"
+  facebook:
+    app_id: ""
+    type: "website"
+  site_name: "Mavericks Edge | Beyond The Edge Blog"
+  locale: "en_US"
+  type: "website"
+  links:
+    - "https://mavericksedge.ca"
+    "https://mavericksedge.ca/web-design-services-edmonton"
+    "https://mavericksedge.ca/web-design-pricing-edmonton"
+
+# Author settings
 author:
   name: "Bezal Benny"
   email: "bezal@mavericksedge.ca"
