@@ -7,7 +7,7 @@ layout: default
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>{{ page.title }}</title>
+  <title>{{ page.title }} | {{ site.title }}</title>
   
   <!-- Canonical URL -->
   {% if page.canonicalUrl %}
@@ -22,7 +22,7 @@ layout: default
   {% endif %}
   
   <!-- Open Graph -->
-  <meta property="og:title" content="{{ page.title }}">
+  <meta property="og:title" content="{{ page.title }} | {{ site.title }}">
   {% if page.excerpt %}
   <meta property="og:description" content="{{ page.excerpt }}">
   {% endif %}
@@ -33,7 +33,7 @@ layout: default
   
   <!-- Twitter Card -->
   <meta name="twitter:card" content="summary_large_image">
-  <meta name="twitter:title" content="{{ page.title }}">
+  <meta name="twitter:title" content="{{ page.title }} | {{ site.title }}">
   {% if page.excerpt %}
   <meta name="twitter:description" content="{{ page.excerpt }}">
   {% endif %}
@@ -59,9 +59,17 @@ layout: default
     .post-meta { color: #888; font-size: 0.9em; margin-bottom: 30px; }
     .tags { margin-top: 20px; }
     .tag { background: #f0f0f0; padding: 4px 8px; border-radius: 4px; margin-right: 8px; font-size: 0.8em; }
+    .blog-header { text-align: center; margin-bottom: 40px; padding: 20px 0; border-bottom: 2px solid #eee; }
+    .blog-title { font-size: 2em; color: #333; margin: 0; }
+    .blog-subtitle { color: #666; margin: 10px 0 0 0; font-size: 1.1em; }
   </style>
 </head>
 <body>
+  <div class="blog-header">
+    <h1 class="blog-title">{{ site.title }}</h1>
+    <p class="blog-subtitle">{{ site.description }}</p>
+  </div>
+  
   <article>
     <h1>{{ page.title }}</h1>
     
