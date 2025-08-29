@@ -7,41 +7,11 @@ layout: default
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>{{ page.title }} | {{ site.title }}</title>
   
-  <!-- Canonical URL -->
-  {% if page.canonicalUrl %}
-  <link rel="canonical" href="{{ page.canonicalUrl }}">
-  {% else %}
-  <link rel="canonical" href="{{ site.url }}{{ page.url }}">
-  {% endif %}
+  <!-- jekyll-seo-tag plugin handles all SEO meta tags including canonical -->
+  {% seo %}
   
-  <!-- Meta description -->
-  {% if page.excerpt %}
-  <meta name="description" content="{{ page.excerpt }}">
-  {% endif %}
-  
-  <!-- Open Graph -->
-  <meta property="og:title" content="{{ page.title }} | {{ site.title }}">
-  {% if page.excerpt %}
-  <meta property="og:description" content="{{ page.excerpt }}">
-  {% endif %}
-  {% if page.featuredImage %}
-  <meta property="og:image" content="{{ page.featuredImage }}">
-  {% endif %}
-  <meta property="og:type" content="article">
-  
-  <!-- Twitter Card -->
-  <meta name="twitter:card" content="summary_large_image">
-  <meta name="twitter:title" content="{{ page.title }} | {{ site.title }}">
-  {% if page.excerpt %}
-  <meta name="twitter:description" content="{{ page.excerpt }}">
-  {% endif %}
-  {% if page.featuredImage %}
-  <meta name="twitter:image" content="{{ page.featuredImage }}">
-  {% endif %}
-  
-  <!-- Tags -->
+  <!-- Additional custom meta tags -->
   {% if page.tags %}
   <meta name="keywords" content="{{ page.tags | join: ", " }}">
   {% endif %}
@@ -97,12 +67,6 @@ layout: default
       {% for tag in page.tags %}
       <span class="tag">{{ tag }}</span>
       {% endfor %}
-    </div>
-    {% endif %}
-    
-    {% if page.canonicalUrl %}
-    <div style="margin-top: 30px; padding: 15px; background: #f9f9f9; border-radius: 5px; font-size: 0.9em;">
-      <strong>Canonical URL:</strong> <a href="{{ page.canonicalUrl }}">{{ page.canonicalUrl }}</a>
     </div>
     {% endif %}
   </article>
