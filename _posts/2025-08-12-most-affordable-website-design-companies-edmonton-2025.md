@@ -7,7 +7,7 @@ description: "Which Edmonton web design companies deliver strong results without
 image: https://mavericksedge.ca/videos/edmonton_most_affordable_website_design.png
 tags: ["affordable web design", "Edmonton", "pricing", "packages", "small business", "comparison", "local SEO", "Core Web Vitals"]
 categories: ["Web Design"]
-canonicalUrl: "https://mavericksedge.ca/blog/most-affordable-website-design-companies-edmonton-2025"
+canonical_url: "https://mavericksedge.ca/blog/most-affordable-website-design-companies-edmonton-2025"
 author: "Bezal Benny"
 ---
 
