@@ -4,14 +4,14 @@ date: 2025-09-30T00:00:00
 slug: mavericks-edge-launches-largest-n8n-workflow-collection
 excerpt: "Discover the largest n8n workflow collection to streamline your automation tasks. Mavericks Edge launches comprehensive library of n8n templates for businesses and developers."
 description: "Discover the largest n8n workflow collection to streamline your automation tasks. Mavericks Edge launches comprehensive library of n8n templates for businesses and developers."
-image: https://mavericksedge.ca/images/n8n-workflow-collection-hero.jpg
+image: https://mavericksedge.ca/videos/n8n-workflow-collection-hero.png
 tags: ["n8n workflows", "automation templates", "workflow collection", "business automation", "n8n repository", "digital transformation", "Edmonton automation", "workflow templates", "automation library", "n8n community", "Automation"]
 categories: ["Automation"]
 canonicalUrl: "https://mavericksedge.ca/blog/mavericks-edge-launches-largest-n8n-workflow-collection"
 author: "Bezal Benny"
 ---
 
-![Featured Image](https://mavericksedge.ca/images/n8n-workflow-collection-hero.jpg)
+![Featured Image](https://mavericksedge.ca/videos/n8n-workflow-collection-hero.png)
 
 ## The Challenge of Finding Quality n8n Workflows
 
